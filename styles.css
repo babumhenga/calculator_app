@@ -1,0 +1,37 @@
+body{
+    background-color: aqua;
+}
+.container{
+    width:500px;
+    height:500px;
+    background-color: transparent;
+    margin-left:500px;
+    border-radius: 10px;
+    justify-content: center;
+    
+    display: flex;
+    border:1px solid rgb(160, 0, 0);
+}
+.calculator{
+    background: rgb(0, 0, 20);
+    padding:20px;
+    border-radius:10px;
+}
+.calculator form input{
+    background-color: rgb(48, 61, 235);
+    border: 0;
+    outline: 0;
+    width:60px;
+    height: 60px;
+    border-radius:20px;
+    cursor: pointer;
+    margin:5px;
+}
+form .display input{
+    width:280px;
+    background-color: rgb(235, 157, 157);
+    justify-content: flex-end;
+}
+form input.equal{
+    width:133px;
+}
